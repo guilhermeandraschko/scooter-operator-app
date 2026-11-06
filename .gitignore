@@ -1,0 +1,19 @@
+node_modules/
+.expo/
+dist/
+android/
+ios/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+.DS_Store
+*.log
+npm-debug.*
+.env
+.env.local
+# Vendor protocol manuals — keep local, do not publish
+docs/*.pdf

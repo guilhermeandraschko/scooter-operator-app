@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Scooter Operator",
+    "slug": "scooter-operator-app",
+    "scheme": "scooteroperator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.boleia.scooteroperator",
+      "infoPlist": {
+        "NSBluetoothAlwaysUsageDescription": "Bluetooth is used to connect to scooters for lock and diagnostics when there is no cellular connection.",
+        "NSBluetoothPeripheralUsageDescription": "Bluetooth is used to connect to scooters for operator tasks.",
+        "NSLocationWhenInUseUsageDescription": "Location is required on Android 12+ to scan for nearby Bluetooth scooters."
+      }
+    },
+    "android": {
+      "package": "com.boleia.scooteroperator",
+      "permissions": [
+        "android.permission.BLUETOOTH",
+        "android.permission.BLUETOOTH_ADMIN",
+        "android.permission.BLUETOOTH_SCAN",
+        "android.permission.BLUETOOTH_CONNECT",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "plugins": ["expo-dev-client"]
+  }
+}

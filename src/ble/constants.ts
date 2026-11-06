@@ -1,0 +1,3 @@
+/** ZK BLE — Test Service / User APP (128-bit UUIDs). */
+export const ZK_SERVICE_UUID = '00002c00-0000-1000-8000-00805f9b34fb';
+export const ZK_CHARACTERISTIC_UUID = '00002c10-0000-1000-8000-00805f9b34fb';
